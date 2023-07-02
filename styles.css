@@ -43,10 +43,11 @@ table {
 }
 
 body {
+    height: 100vh;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 4fr;
 }
 
 .sidebar {
@@ -63,13 +64,27 @@ body {
     border: 2px solid yellowgreen;
     grid-column: 2 / 3;
     display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 2;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .projects {
     border: 2px solid yellowgreen;
     grid-row: 1 / 3;
+    box-sizing: border-box;
+}
+
+.card-container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid purple;
+    gap: 5px;
+}
+
+.card {
+    border: 2px solid orange;
+    padding: 80px 20px;
 }
 
 .announcements {
