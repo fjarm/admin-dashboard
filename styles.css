@@ -62,7 +62,7 @@ body {
 .sidebar {
     grid-row: 1 / 3;
     padding: 20px;
-    background-color: #fcde8d
+    background-color: var(--primary-color)
 }
 
 .sidebar-item {
