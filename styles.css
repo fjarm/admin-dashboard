@@ -57,6 +57,7 @@ body {
     grid-template-columns: 1fr 6fr;
     grid-template-rows: 1fr 4fr;
     color: var(--text-color);
+    font-family: "Roboto", sans-serif;
 }
 
 .sidebar {
