@@ -71,11 +71,19 @@ body {
     grid-template-columns: 1fr 5fr;
     justify-items: start;
     align-items: center;
-    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.sidebar-header {
+    font-size: 2em;
+    font-weight: 700;
+    padding-left: 10px;
 }
 
 .sidebar-text {
-
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-left: 10px;
 }
 
 .sidebar-separate {
