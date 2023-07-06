@@ -113,13 +113,9 @@ h4 {
 .header {
     grid-column: 2 / 3;
     background-color: var(--secondary-color);
-    padding: 20px 40px;
+    padding: 0px 40px;
     display: grid;
     grid-template-columns: 2fr 1fr;
-}
-
-.header-item {
-    border: 2px solid red;
 }
 
 .header-top-right {
@@ -127,6 +123,7 @@ h4 {
     grid-template-columns: 60px 60px 100px;
     justify-content: end;
     align-items: center;
+    padding-right: 12px;
 }
 
 .header-bottom-left {
@@ -136,13 +133,21 @@ h4 {
     justify-content: start;
 }
 
+.header-bottom-right {
+    display: grid;
+    grid-template-columns: 140px 140px 140px;
+    justify-content: end;
+    align-content: center;
+}
+
 button {
-    padding: 12px 28px;
+    padding: 12px 38px;
     background-color: var(--primary-color);
     border: none;
     border-radius: 20px;
     font-weight: 600;
     font-size: 0.9em;
+    width: 120px
 }
 
 .search-bar {
@@ -153,7 +158,7 @@ button {
     background-color: var(--bg-color);
 }
 
-.search-bar-items {
+.header-top-left {
     display: grid;
     grid-template-columns: 40px 1000px;
     align-items: center;
