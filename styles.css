@@ -166,6 +166,7 @@ button {
 
 .main {
     border: 2px solid yellowgreen;
+    background-color: var(--bg-color);
     grid-column: 2 / 3;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -188,6 +189,7 @@ button {
 
 .card {
     border: 2px solid orange;
+    background-color: var(--secondary-color);
     padding: 80px 20px;
 }
 
