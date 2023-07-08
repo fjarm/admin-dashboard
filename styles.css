@@ -214,8 +214,10 @@ button {
 .announcements {
     border: 2px solid yellowgreen;
     grid-column: 2 / 3;
+    padding-left: 24px;
 }
 
 .trending {
     border: 2px solid yellowgreen;
+    padding-left: 24px;
 }
