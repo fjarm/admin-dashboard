@@ -177,6 +177,7 @@ button {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
+    box-shadow: inset 0px 3px 8px 0px rgba(133, 117, 138, 1);
 }
 
 .projects {
@@ -197,7 +198,7 @@ button {
     border-radius: 12px;
     background-color: var(--secondary-color);
     padding: 60px 14px;
-}
+    box-shadow: 4px 4px 8px 0px rgba(133, 117, 138, 1);
 
 .card-text {
     padding-top: 6px;
