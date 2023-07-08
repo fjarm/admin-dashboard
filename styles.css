@@ -199,6 +199,7 @@ button {
     background-color: var(--secondary-color);
     padding: 60px 14px;
     box-shadow: 4px 4px 8px 0px rgba(133, 117, 138, 1);
+}
 
 .card-text {
     padding-top: 6px;
