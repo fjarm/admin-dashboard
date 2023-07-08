@@ -1,5 +1,6 @@
 :root {
     --text-color: #0f0114;
+    --secondary-text: #585458;
     --bg-color: #f4d7fe;
     --primary-color: #fcde8d;
     --secondary-color: #f9ebfe;
@@ -171,7 +172,7 @@ button {
 }
 
 .main {
-    padding: 24px 16px 32px 16px;
+    padding: 24px 24px 32px 24px;
     background-color: var(--bg-color);
     grid-column: 2 / 3;
     display: grid;
@@ -203,6 +204,7 @@ button {
 
 .card-text {
     padding-top: 6px;
+    color: var(--secondary-text);
 }
 
 .card-icons {
@@ -214,9 +216,29 @@ button {
 }
 
 .announcements {
-    border: 2px solid yellowgreen;
     grid-column: 2 / 3;
     padding-left: 24px;
+}
+
+.announcement-container {
+    background-color: var(--secondary-color);
+    box-shadow: 4px 4px 8px 0px rgba(133, 117, 138, 1);
+    padding: 16px 16px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 12px;
+}
+
+.announcement-text {
+    font-size: 0.8em;
+    color: var(--secondary-text);
+    padding-top: 4px;
+}
+
+hr {
+    margin-top: 12px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
 }
 
 .trending {
